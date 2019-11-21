@@ -1,4 +1,4 @@
-package ua.epam.hw4;
+package ua.epam.hw4.receipt;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package ua.epam.hw4;
+package ua.epam.hw4.receipt;
 
 public class AppRunner {
     public static void main(String[] args) {
