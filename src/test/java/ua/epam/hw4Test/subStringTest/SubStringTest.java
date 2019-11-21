@@ -1,4 +1,4 @@
-package ua.epam.hw4.subStringTest;
+package ua.epam.hw4Test.subStringTest;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
