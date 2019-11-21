@@ -1,9 +1,9 @@
 package ua.epam.hw4Test;
 
 import org.junit.Test;
-import ua.epam.hw4.AppView;
-import ua.epam.hw4.BusinessLogic;
-import ua.epam.hw4.Receipt;
+import ua.epam.hw4.receipt.AppView;
+import ua.epam.hw4.receipt.BusinessLogic;
+import ua.epam.hw4.receipt.Receipt;
 
 import static org.junit.Assert.assertEquals;
 
