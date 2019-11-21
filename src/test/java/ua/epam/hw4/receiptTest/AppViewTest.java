@@ -1,4 +1,4 @@
-package ua.epam.hw4Test.receiptTest;
+package ua.epam.hw4.receiptTest;
 
 import org.junit.Test;
 import ua.epam.hw4.receipt.AppView;
