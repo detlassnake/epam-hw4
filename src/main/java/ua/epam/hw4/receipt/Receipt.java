@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Receipt {
     private Date date;
-    private String discount;
+    private int discount;
     private double discountPrice;
     private double totalPrice;
 
@@ -12,7 +12,7 @@ public class Receipt {
         this.totalPrice = totalPrice;
     }
 
-    public void setDiscount(String discount) {
+    public void setDiscount(int discount) {
         this.discount = discount;
     }
 
@@ -34,7 +34,7 @@ public class Receipt {
 
     @Override
     public String toString() {
-        return "Total price: " + this.totalPrice + ", Discount: " + this.discount + ", Discount price: " + this.discountPrice + ", Date: " + this.date;
+        return "Total price: " + this.totalPrice + ", Discount: " + this.discount + "%, Discount price: " + this.discountPrice + ", Date: " + this.date;
     }
 }
 

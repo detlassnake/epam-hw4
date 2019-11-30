@@ -10,7 +10,7 @@ public class AppView {
     public Receipt start() {
         System.out.println(ENTER_AMOUNT_TEXT);
         BusinessLogic businessLogic = new BusinessLogic();
-        Receipt receipt = businessLogic.generateAmount(inputAmount(),new Receipt());
+        Receipt receipt = businessLogic.generateReceipt(inputAmount());
         System.out.println(receipt.toString());
         return receipt;
     }
